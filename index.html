@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LeKise Health Care</title>
-
     <!-- ============================================================
          🖥️ Favicon — ไอคอนที่โชว์บน TAB ของเบราว์เซอร์ (Desktop)
          ใช้ .ico ตัวเดียวครอบคลุมทุกเบราว์เซอร์เก่า-ใหม่ + PNG แยกขนาด
@@ -16,7 +15,6 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="48x48" href="favicon-48x48.png">
-
     <!-- ============================================================
          📱 iOS — ไอคอนตอนกด "Add to Home Screen" บน iPhone/iPad
          apple-touch-icon ต้องเป็นพื้นทึบ (ไม่โปร่งใส) เพราะ iOS จะแสดง
@@ -27,7 +25,6 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="LeKise">
-
     <!-- ============================================================
          🤖 Android / Chrome — ไอคอนตอน "Add to Home screen"
          อ่านค่าจาก site.webmanifest (name, icons, สีธีม, โหมดเปิดแบบ standalone)
@@ -35,7 +32,17 @@
     <link rel="manifest" href="site.webmanifest">
     <meta name="theme-color" content="#ff1616">
     <meta name="mobile-web-app-capable" content="yes">
-
+    <!-- ============================================================
+         💬 LINE / Facebook / Social Preview (Open Graph)
+         LINE ใช้ og:site_name เป็นชื่อที่โชว์แทนคำว่า "เว็บแอป" ที่เคยขึ้น
+         og:title/description/image ใช้ตอนแชร์ลิงก์ในแชท ให้ขึ้นการ์ดพรีวิวสวยๆ
+         ============================================================ -->
+    <meta property="og:site_name" content="LeKise Health Care Club">
+    <meta property="og:title" content="LeKise Health Care Club">
+    <meta property="og:description" content="ระบบดูแลสุขภาพและสวัสดิการพนักงาน LeKise Health Care Club">
+    <meta property="og:image" content="https://lekisegroup.github.io/HealthCare/og-image.png">
+    <meta property="og:url" content="https://lekisegroup.github.io/HealthCare/">
+    <meta property="og:type" content="website">
     <style>
       /* กัน scrollbar เกินและให้ iframe เต็มจอพอดีทุกอุปกรณ์ */
       html, body { margin: 0; padding: 0; height: 100%; }
