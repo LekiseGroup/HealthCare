@@ -6,6 +6,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LeKise Health Care</title>
+
+    <!-- ============================================================
+         🖥️ Favicon — ไอคอนที่โชว์บน TAB ของเบราว์เซอร์ (Desktop)
+         ใช้ .ico ตัวเดียวครอบคลุมทุกเบราว์เซอร์เก่า-ใหม่ + PNG แยกขนาด
+         เผื่อเบราว์เซอร์ที่รองรับ PNG favicon โดยตรง (คมชัดกว่า .ico)
+         ============================================================ -->
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="favicon-48x48.png">
+
+    <!-- ============================================================
+         📱 iOS — ไอคอนตอนกด "Add to Home Screen" บน iPhone/iPad
+         apple-touch-icon ต้องเป็นพื้นทึบ (ไม่โปร่งใส) เพราะ iOS จะแสดง
+         พื้นหลังโปร่งใสเป็นสีดำ จึงใส่พื้นขาวไว้ให้แล้วในไฟล์ภาพ
+         apple-mobile-web-app-* ทำให้เปิดแบบ Standalone (ไม่มี Safari UI)
+         ============================================================ -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="LeKise">
+
+    <!-- ============================================================
+         🤖 Android / Chrome — ไอคอนตอน "Add to Home screen"
+         อ่านค่าจาก site.webmanifest (name, icons, สีธีม, โหมดเปิดแบบ standalone)
+         ============================================================ -->
+    <link rel="manifest" href="site.webmanifest">
+    <meta name="theme-color" content="#ff1616">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <style>
+      /* กัน scrollbar เกินและให้ iframe เต็มจอพอดีทุกอุปกรณ์ */
+      html, body { margin: 0; padding: 0; height: 100%; }
+    </style>
 </head>
 <body>
     <iframe style="width: 100%; height: 100vh;" scrolling="yes" src="https://script.google.com/macros/s/AKfycbzzq85zUPMQTrdpazcjvScDKHEp98tb3ct7WPhCVjG5dBPWTPIH1fYBuGZHTGKas-gE8Q/exec" frameborder="0"></iframe>
